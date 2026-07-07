@@ -571,10 +571,10 @@ if ( ! class_exists( 'Beauty_Studio_Theme_Info' ) ) {
 				elseif ( ! empty( $saved_actions ) and is_array( $saved_actions ) ) {
 
 					switch ( esc_html( $todo ) ) {
-						case 'add';
+						case 'add':
 							$saved_actions[ $action_id ] = true;
 							break;
-						case 'dismiss';
+						case 'dismiss':
 							$saved_actions[ $action_id ] = false;
 							break;
 					}
@@ -590,10 +590,10 @@ if ( ! class_exists( 'Beauty_Studio_Theme_Info' ) ) {
 							echo ' ' . esc_attr( $todo );
 							if ( $recommended_action['id'] == $action_id ) {
 								switch ( esc_html( $todo ) ) {
-									case 'add';
+									case 'add':
 										$saved_actions_new[ $action_id ] = true;
 										break;
-									case 'dismiss';
+									case 'dismiss':
 										$saved_actions_new[ $action_id ] = false;
 										break;
 								}
