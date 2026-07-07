@@ -37,7 +37,7 @@ Beauty Studio is a WordPress theme made for Beauty, Spa, Saloon particularly bea
 
 == Change log ==
 
-= 4.0.0 - Jun 26 2026 =
+= 4.0.0 - Jul 13 2026 =
 * Updated: WordPress 7.0 compatibility
 * Updated: Requires PHP 7.4
 * Updated: Tested up to WordPress 7.0
